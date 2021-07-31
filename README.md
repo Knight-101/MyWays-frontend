@@ -8,3 +8,5 @@ admin email- admin@gmail.com
 admin password - admin123
 Other users can read the blogs.
 Website Link - https://mywaysblogs.netlify.app/
+
+There might be some bugs but due to time constraints I have ignored them and deployed. 
