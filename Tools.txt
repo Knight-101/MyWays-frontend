@@ -1,0 +1,3 @@
+I have used React Redux for frontend apps and MongoDB, mongoose , Express, Node for backend.
+I have also used material ui for stying components and jwt for login and signup.
+I did not find any particular use of Redux so I have just added the user details in there.
