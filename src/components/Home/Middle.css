@@ -1,0 +1,34 @@
+.mid {
+  padding: 3rem 5rem;
+}
+.blogs-head {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  grid-gap: 2rem;
+}
+#blogs-heading {
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+}
+.mid-content {
+  margin: 3rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 2rem;
+}
+.grid-item {
+  justify-self: center;
+  align-self: center;
+}
+.blogCRUD {
+  border: none;
+  border-radius: 5px;
+  background-color: #3c5a5f;
+  color: white;
+  padding: 3px 40px 3px 40px;
+}
+
+.blogCRUD:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+}

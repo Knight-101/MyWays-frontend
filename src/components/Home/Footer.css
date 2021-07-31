@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+
+/* .foot {
+  margin: 0;
+  padding: 0 5rem 1rem 5rem;
+  background: linear-gradient(0deg, var(--heavy-jb) 0%, var(--jb) 100%);
+} */
+
+.foot {
+  background-color: #3c5a5f;
+  margin: 0;
+  padding: 3rem 0;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 30px;
+}
+.foot-brand {
+  padding: 0 5rem;
+  display: flex;
+  color: white;
+  letter-spacing: 1px;
+}
+.foot-brand-logo {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 100%;
+}
