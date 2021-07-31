@@ -1,6 +1,11 @@
 .content {
   overflow: hidden;
-  max-height: 40px;
+  max-height: 80px;
+}
+.title {
+  max-height: 100px;
+  font-size: 1.3rem !important;
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 1275px) {

@@ -20,14 +20,14 @@ function Alert(props) {
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-    maxHeight: 370,
+    height: 410,
   },
   delete: {
     color: "red",
   },
-  content: {
-    overflow: "hidden",
-    maxHeight: 40,
+  readmore: {
+    position: "relative",
+    bottom: "20px",
   },
 });
 
@@ -87,7 +87,7 @@ export default function BlogCard(props) {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
+        <CardActions className={classes.readmore}>
           <Link to={`./blogpage/${props.id}`}>
             <Button size="small" color="primary">
               Read More
