@@ -32,7 +32,7 @@ const useStyles = makeStyles({
 });
 
 export default function BlogCard(props) {
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://rocky-ravine-81290.herokuapp.com";
   const classes = useStyles();
   const [deleted, setdeleted] = useState(false);
 

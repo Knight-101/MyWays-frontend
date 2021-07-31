@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function SignupModal(props) {
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://rocky-ravine-81290.herokuapp.com";
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const [openErr, setOpenErr] = React.useState(false);

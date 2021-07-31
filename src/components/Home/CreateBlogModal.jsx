@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function CreateBlogModal(props) {
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://rocky-ravine-81290.herokuapp.com";
   const classes = useStyles();
   const [open, setOpen] = useState(false);
   const [created, setcreated] = useState(false);

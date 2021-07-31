@@ -8,7 +8,7 @@ import { useHistory } from "react-router";
 
 export default function BlogPage(props) {
   const history = useHistory();
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://rocky-ravine-81290.herokuapp.com";
   const [blog, setblog] = useState({
     Title: "",
     Image: "",

@@ -36,7 +36,7 @@ export default function LoginModal(props) {
   const handleClose = () => {
     setOpen(false);
   };
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://rocky-ravine-81290.herokuapp.com";
   const [fail, setfail] = useState("");
   const [userData, setuserData] = useState({
     email: "",
