@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="copyright">
         <p>ⓒ 2021 Developed by Sanskar</p>
       </div>
-    <p>Some of the content of this page has been taken from the site myways.in/blog</p>
+    
     </div>
   );
 };
