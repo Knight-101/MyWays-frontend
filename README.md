@@ -10,3 +10,4 @@ Other users can read the blogs.
 Website Link - https://mywaysblogs.netlify.app/
 
 There might be some bugs but due to time constraints I have ignored them and deployed. 
+I have used blogs in the myways blogs as a demo. 
